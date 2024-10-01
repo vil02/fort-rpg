@@ -1,7 +1,7 @@
 subroutine battle(heroabil,herohp, herohptot)
 implicit none
 integer, intent(inout) :: heroabil(3), herohp, herohptot
-integer :: i, enemabil(3), herooccupa(3)
+integer :: enemabil(3)
 integer :: heroroll, enemroll, decision, roll
 integer :: enemdamage, herodamage
 integer :: enemhp, enemhptot
