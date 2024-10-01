@@ -24,14 +24,11 @@
 PROGRAM Rpg
 
 IMPLICIT NONE
-INTEGER :: Roll
 CHARACTER :: Choice
 CHARACTER(20) :: HeroName
-INTEGER :: Seed_Size, TimeSave
+INTEGER :: Seed_Size
 INTEGER,ALLOCATABLE :: Seed(:)
 INTEGER :: Backpack(200)
-INTEGER :: HeroSpells(50)
-INTEGER :: HeroLevel
 CHARACTER(30) :: TownName
 integer :: heroabil(3), herohp, herohptot
 
