@@ -6,7 +6,6 @@ CHARACTER :: Choice
 CHARACTER(20), INTENT(INOUT) :: HeroName
 CHARACTER(30), INTENT(INOUT) :: TownName
 
-CHARACTER :: Choice2
 DO
 WRITE (*,*) "--------------------------------------------------"
 WRITE (*,'(1X,A,A)') "The Monastery at ", TRIM(TownName)
