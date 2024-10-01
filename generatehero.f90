@@ -1,5 +1,5 @@
 subroutine generatehero(heroabil, herohp, herohptot,townname,backpack, heroname)
-integer :: herooccupa(3), roll
+integer :: roll
 integer, intent(inout) :: heroabil(3), herohp, herohptot
 INTEGER, INTENT(INOUT) :: Backpack(200)
 CHARACTER(20), INTENT(INOUT) :: HeroName
