@@ -5,7 +5,6 @@ INTEGER, INTENT(INOUT) :: Backpack(200)
 CHARACTER :: Choice
 CHARACTER(20), INTENT(INOUT) :: HeroName
 CHARACTER(30), INTENT(INOUT) :: TownName
-CHARACTER :: Choice2
 
 DO
 WRITE (*,*) "--------------------------------------------------"
